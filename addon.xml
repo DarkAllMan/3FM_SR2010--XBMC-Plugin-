@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nederland24"
+       name="Nederland 24"
+       version="1.0.0"
+       provider-name="NajGeetsrev">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Nederland 24</summary>
+    <description>Nederland 24 is the collective name for a bouquet of specialty digital television channels from Netherlands Public Broadcasting. It also broadcasts a sample channel of the same name featuring a mix of programming from the other thematic channels.
+
+With this plugin you can view these channels in XBMC.</description>
+    <description lang="nl">Nederland 24 (voorheen Nederland 4) is de digitale vierde televisiezender van de Nederlandse Publieke Omroep. Nederland 24 is niet een gewone publieke zender; naast het feit dat de zender digitaal is, bestaat hij uit verschillende themakanalen die in feite onafhankelijk van elkaar werken maar die bekend staan onder de noemer Nederland 24.
+
+Met deze plugin kun je deze digitale kanalen bekijken in XBMC.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
