@@ -1,6 +1,6 @@
 import sys
 import os
-import xbmc, xbmcgui, xbmcplugin
+import xbmc, xbmcgui, xbmcplugin, xbmcaddon
 import urllib
 
 # plugin handle
@@ -14,7 +14,8 @@ def addLink(name,url,iconimage):
         return retval
 
 def show_channellist():
-    channel_icons_path = os.path.join( os.getcwd(), "icons" )
+    Addon = xbmcaddon.Addon( id="plugin.video.nederland24")
+    channel_icons_path = os.path.join(Addon.getAddonInfo("path"),"icons")
 
     addLink("101TV", "http://livestreams.omroep.nl/npo/101tv-bb", os.path.join(channel_icons_path, "101tv.png"))
     addLink("Consumenten 24", "http://livestreams.omroep.nl/npo/consumenten24-bb", os.path.join(channel_icons_path, "consumenten24.png"))
