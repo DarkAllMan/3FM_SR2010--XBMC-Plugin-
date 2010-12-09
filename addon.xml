@@ -11,8 +11,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Nederland 24</summary>
-    <description>Nederland 24 is the collective name for a bouquet of specialty digital television channels from Netherlands Public Broadcasting. It also broadcasts a sample channel of the same name featuring a mix of programming from the other thematic channels.</description>
+    <summary lang="en">Nederland 24</summary>
+    <description lang="en">Nederland 24 is the collective name for a bouquet of specialty digital television channels from Netherlands Public Broadcasting. It also broadcasts a sample channel of the same name featuring a mix of programming from the other thematic channels.</description>
     <description lang="nl">Nederland 24 (voorheen Nederland 4) is de digitale vierde televisiezender van de Nederlandse Publieke Omroep. Nederland 24 is niet een gewone publieke zender; naast het feit dat de zender digitaal is, bestaat hij uit verschillende themakanalen die in feite onafhankelijk van elkaar werken maar die bekend staan onder de noemer Nederland 24.</description>
     <platform>all</platform>
   </extension>
