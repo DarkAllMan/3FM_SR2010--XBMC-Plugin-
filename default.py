@@ -22,3 +22,4 @@ def show_channellist():
     xbmcplugin.endOfDirectory(handle=handle, succeeded=True)
  
 ok = show_channellist()
+
