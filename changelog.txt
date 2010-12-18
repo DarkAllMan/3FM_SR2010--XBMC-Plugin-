@@ -1,7 +1,4 @@
-[B]Version 1.0.1[/B]
-- Processed some feedback
-
 [B]Version 1.0.0[/B]
 
-- Final version
-- Added icons
+- First and final version
+- Based on Nederland-24 from NajGeetsrev (https://github.com/NajGeetsrev/Nederland-24--XBMC-Plugin-)
