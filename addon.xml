@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.nederland24"
-       name="Nederland 24"
-       version="1.0.1"
-       provider-name="NajGeetsrev">
+<addon id="plugin.video.3fm_sr2010"
+       name="3FM SeriousRequest 2010"
+       version="1.0.0"
+       provider-name="macmenco">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
@@ -11,9 +11,11 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Nederland 24</summary>
-    <description lang="en">Nederland 24 is the collective name for a bouquet of specialty digital television channels from Netherlands Public Broadcasting. It also broadcasts a sample channel of the same name featuring a mix of programming from the other thematic channels.</description>
-    <description lang="nl">Nederland 24 (voorheen Nederland 4) is de digitale vierde televisiezender van de Nederlandse Publieke Omroep. Nederland 24 is niet een gewone publieke zender; naast het feit dat de zender digitaal is, bestaat hij uit verschillende themakanalen die in feite onafhankelijk van elkaar werken maar die bekend staan onder de noemer Nederland 24.</description>
+    <summary>3FM Serious Request 2010</summary>
+    <description>3fm Serious Request 2010 streams. With this plugin you can view these channels in XBMC.</description>
+    <description lang="nl">Tijdens 3FM Serious Request worden dj's Coen Swijnenberg, Giel Beelen en Gerard Ekdom een week lang zonder eten opgesloten in Het Glazen Huis in Eindhoven. Ze maken 24/7 radio om aandacht te vragen en geld in te zamelen voor kinderen die hun ouders hebben verloren aan de gevolgen van aids.
+
+Met deze plugin kun je deze digitale kanalen bekijken in XBMC.</description>
     <platform>all</platform>
   </extension>
 </addon>
